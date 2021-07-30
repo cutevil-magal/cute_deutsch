@@ -1,0 +1,95 @@
+body{
+	background-color: #b98e77;
+}
+/*  МЕНЮ */
+.menu{
+	max-width: 1024;
+	background-color:#90604C;
+	margin: auto;
+    text-align: center;
+}
+#dws-menu,
+header label {
+ display: none;
+}
+ul{
+
+ 	list-style: none;   /*убираем маркеры списка*/
+ 	margin: 0;   /*убираем верхнее и нижнее поле, равное 1em*/
+  	padding-left: 0;   /*убираем левый отступ, равный 40px*/
+}
+ul{
+	display: flex;
+	float: right;
+
+}
+a{
+	text-decoration: none;   /*убираем подчеркивание текста ссылок*/
+	padding: 1em;	
+	height: 5px;
+	color: #90604C;
+  	font-family: 'Oswald', sans-serif;
+  	font-size: 21px;
+}
+a:hover {
+	color: #dbc197;
+}
+/*  ПЕРВЫЙ блок */
+
+.blok1{
+	width: 1050;
+	height: 548; 
+	margin: auto;
+    text-align: center;
+    border-spacing: 0px;
+	align-content: center;
+
+}
+.good{
+	background-color:#90604C;
+	font-family: 'Merienda', cursive;
+	font-size: 80px;
+	color: #dbc197;
+	height: 10px;
+}
+.coma{
+	background-color:#90604C;
+	color: #dbc197;
+	font-family: 'Caveat', cursive;
+	font-size: 37px;
+	height: 10px;
+}
+.tvelf{
+	background-color:#90604C;
+}
+.ver{
+	width: 580;
+}
+/* ВТОРОЙ блок */
+.blok2{
+	width: 1047;
+	margin: auto;
+    text-align: center;
+    border-spacing: 0px;
+}
+.wulf{
+	height: 420px;
+	background-color:#dbcabd;
+	color: #573f2c;
+	font-family: 'Oswald', sans-serif;
+	font-size: 23px;
+}
+.rex{
+	padding: 15px;
+}
+.rek{
+	height: 270px;
+	background-color:#573f2c;
+	color: #dbcabd;
+	font-family: 'Caveat', cursive;
+	font-size: 46px;
+}
+.p66{
+	width: 0;
+}
+
