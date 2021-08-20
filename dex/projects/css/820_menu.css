@@ -1,0 +1,88 @@
+body{
+	background-color: #b98e77;
+	
+}
+/*  основной блок контента */
+.content{
+	width: 600px;
+	border: 1px;
+    margin:  1px auto;
+    padding: 1px;
+
+}
+/*  МЕНЮ */
+.menu{
+	height: 33px;
+	border: 1px;
+	margin: auto;
+}
+.leb-menu{
+	height: 0px;
+}
+#dws-menu,
+header label {
+ display: none;
+}
+ul{
+
+ 	list-style: none;   /*убираем маркеры списка*/
+ 	margin: 0;   /*убираем верхнее и нижнее поле, равное 1em*/
+  	padding-left: 0;   /*убираем левый отступ, равный 40px*/
+}
+ul{
+	display: flex;
+	float: right;
+
+}
+a{
+	text-decoration: none;   /*убираем подчеркивание текста ссылок*/
+	padding: 1em;	
+	height: 8px;
+	color: #90604C;
+  	font-family: 'Oswald', sans-serif;
+  	font-size: 24px;
+}
+a:hover {
+	color: #dbc197;
+}
+.p66{
+	width: 0;
+}
+.blok2{
+	padding: 20px;
+
+	font-family: 'Oswald', sans-serif;
+  	font-size: 18px;
+  	color: #d9af96;
+  	height: 350px;
+}
+.a1, .a2, .a3, .a4, .a5, .a6, .a7, .a8 {
+	width: 190px;
+	float: left;
+	padding: 0px;
+	background-color:#90604C;
+	display: inline-table;
+	margin-left: 7px;
+	margin: 0px 0px 10px 0px;
+}
+.a111, .a222, .a333, .a444, .a555, .a666, .a777, .a888 {
+	font-size: 25px;
+	width: 270px;
+	margin: 10px 0px;
+}
+.aaa1, .aaa2, .aaa3, .aaa4, .aaa5, .aaa6, .aaa7, .aaa8{
+	font-size: 15px;
+	margin: 0px 5px 5px 12px;
+	width: 210px;
+}
+.wer_1, .wer_2, .wer_3, .wer_4, .wer_5, .wer_6, .wer_7, .wer_8{
+	width: 50%;
+}
+.p1{
+	width: 220px;
+	height: 160px;
+}
+figcaption{
+	text-align: center;
+	width: 130px;
+}
