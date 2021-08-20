@@ -1,0 +1,82 @@
+body{
+	background-color: #b98e77;
+}
+.content{
+	width: 800px;
+	border: 1px;
+    margin:  1px auto;
+    padding: 1px;
+
+}
+.menu{
+	height: 25px;
+	border: 1px;
+	margin: auto;
+}
+.leb-menu{
+	height: 0px;
+}
+#dws-menu,
+header label {
+ display: none;
+}
+ul{
+
+ 	list-style: none;   /*убираем маркеры списка*/
+ 	margin: 0;   /*убираем верхнее и нижнее поле, равное 1em*/
+  	padding-left: 0;   /*убираем левый отступ, равный 40px*/
+}
+ul{
+	display: flex;
+	float: right;
+
+}
+a{
+	text-decoration: none;   /*убираем подчеркивание текста ссылок*/
+	padding: 1em;	
+	height: 5px;
+	color: #90604C;
+  	font-family: 'Oswald', sans-serif;
+  	font-size: 17px;
+}
+a:hover {
+	color: #dbc197;
+}
+.p66{
+	width: 0;
+}
+.blok2{
+	padding: 0px;
+  	height: 550px;
+  	text-align: center;
+  	margin: 0px 0px 0px 80px;
+
+}
+.p1{
+	width: 100px;
+}
+.wer_1, .wer_2, .wer_3, .wer_4, .wer_5, .wer_6{
+	width: 24%;
+	height: 200px;
+	float: left;
+}
+.wer_7, .wer_8, .wer_9, .wer_10, .wer_11, .wer_12{
+	width: 24%;
+	height: 200px;
+	float: left;
+}
+.a1, .a2, .a3, .a4, .a5, .a6{
+	width: 200px;
+	margin: 0px 0px 30px 0px;
+}
+.a7, .a8 .a9, .a10, .a11, .a12{
+	width: 200px;
+	margin: 0px 0px 30px 0px;
+}
+.re2{
+  text-decoration: none;   /*убираем подчеркивание текста ссылок*/  
+  padding: 2px ;
+  color: #d9af96;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+}
