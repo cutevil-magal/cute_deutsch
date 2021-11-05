@@ -1,0 +1,182 @@
+body{
+	background-color: #031112;
+}
+.content{
+	width: 600px;
+	border: 1px;
+    margin:  1px auto;
+    padding: 1px;
+    background-color: black;
+}
+.blok_1{
+	height: 350px;
+	padding: 20px 20px 0px 20px;
+	background-image: url(am_besten.jpg);
+	background-size: 600px 350px;
+}
+.blok_0{
+	height: 0px;
+	background-color: black;
+}
+.size_01{
+	width: 800px;
+}
+.retys{
+	font-size: 22px;
+	font-family: 'Concert One', cursive;
+	color: #13fc03;
+	text-align: left;
+	margin: 0px 0px 10px 60px;
+	height: 50px;
+}
+.tex_1{
+	font-size: 14px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #d4ffc9;
+	height: 35px;
+	text-align: center;
+	margin: 0px 0px 20px 0px;
+}
+.tex_2{
+	font-size: 14px;
+	font-family: 'Comfortaa', cursive;
+	color: #d0fcb1;
+	height: 125px;
+	text-align: center;
+	margin: 0px 320px 10px 0px;
+}
+
+.blok_3{
+	height: 380px;
+	padding: 20px 20px 60px 20px;
+	background-color: black;
+}
+.wer_1{
+	width: 40%;
+	float: left;
+	padding: 40px 0px;
+}
+.wer_2{
+	width: 60%;
+	float: left;
+	text-align: center;
+}
+.p1{
+	width: 220px;
+	text-align: center;
+}
+.p2{
+	width: 240px;
+}
+.log{
+	width: 200px;
+	text-align: left;
+}
+.as1{
+	width: 800px;
+	margin: 0px auto;
+}
+.tab1{
+	text-align: center;
+	width: 330px;
+	margin: opx auto;
+}
+.text_3{
+	font-size: 16px;
+	font-family: 'Concert One', cursive;
+	color: #13fc03;
+	margin: 10px 30px 10px 30px;
+}
+.text_4{
+	font-size: 12px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #d0fcb1;
+	margin: 5px 10px;
+	text-align: justify;
+}
+.wwe{
+	font-size: 35px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #d0fcb1;
+	margin: 10px 50px;
+	text-align: left;
+}
+.ric1, .ric2, .ric3{
+	width: 250px;
+}
+.tab2{
+	text-align: center;
+	width: 1600px;
+	margin: 0px auto;
+}
+.blok_2{
+	padding: 0px;
+	background-color: black;
+	text-align: center;
+}
+.pix1{
+	width: 550px;
+}
+
+
+.blok_6{
+	height: 500px;
+	padding: 90px 20px 20px 20px;
+	text-align: center;
+}
+
+.x1, .x2, .x3{
+	width: 250px;
+}
+
+.z1, .z2{
+	width: 50%;
+	float: left;
+}
+.zx{
+	margin: 0px auto;
+}
+.z12{
+	width: 50%;
+	float: left;
+}
+.text_5{
+	font-size: 12px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #d0fcb1;
+	margin: 10px 50px;
+	text-align: center;
+}
+a{
+	text-decoration: none;   /*убираем подчеркивание текста ссылок*/
+	padding: 1em;	
+	font-size: 13px;
+	font-family: 'Concert One', cursive;
+	color: #13fc03;
+}
+.blok_7{
+	height: 460px;
+	padding: 0px 20px 20px 20px;
+	text-align: center;
+
+}
+.blok_8{
+
+	padding: 0px 20px 10px 20px ;
+	text-align: center;
+}
+.text_7{
+	font-size: 10px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #d0fcb1;
+	padding: 20px;
+	text-align: center;
+	margin: 0px;
+}
+.icons{
+	width: 25px;
+}
+.ico{
+	padding: 5px;
+	margin: 5px;
+}
