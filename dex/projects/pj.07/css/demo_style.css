@@ -1,0 +1,83 @@
+body{
+	padding:0px;
+	margin:0px;
+	text-align:center;
+	background-color: #b98e77;
+}
+header{
+     margin: 0px auto;
+     height: 70px;
+     width: 1820px;
+}
+.content{
+	width: 1820px;
+	border: 1px;
+    margin:  1px auto 30px auto;
+    padding: 1px;
+    background-color:#90604C;
+}
+/*  МЕНЮ */
+.menu{
+	border: 1px;
+	margin: auto;
+}
+#dws-menu, header label {
+    display: none;
+}
+ul{
+ 	list-style: none;   /*убираем маркеры списка*/
+ 	margin: 0;   /*убираем верхнее и нижнее поле, равное 1em*/
+  	padding-left: 0;   /*убираем левый отступ, равный 40px*/
+	display: flex;
+	float: right;
+}
+a{
+	text-decoration: none;   /*убираем подчеркивание текста ссылок*/
+	padding: 10px 50px;
+	height: 5px;
+	color: #90604C;
+  	font-family: 'Oswald', sans-serif;
+  	font-size: 41px;
+}
+a:hover {
+	color: #dbc197;
+}
+h1{
+	font-family: 'Merienda', cursive;
+	font-size: 55px;
+	color: #d9af96;
+}
+.blok2{
+	text-align: center;
+	margin: auto;
+    text-align: center;
+    border-spacing: 0px;
+}
+.table1{
+	text-align: center;
+	width: 1820px;
+}
+.p66{
+	width: 0;
+}
+.www{
+	color: #d9af96;
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+	text-align: left;
+	margin: 0px 40px;
+}
+.w{
+	padding: 40px;
+}
+.a1{
+	height: 700px;
+}
+.sa1{
+	text-decoration: none;   /*убираем подчеркивание текста ссылок*/
+	padding: 0px;	
+	height: 5px;
+	color: #dbc197;
+  	font-family: 'Oswald', sans-serif;
+  	font-size: 44px;
+}
