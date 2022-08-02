@@ -1,0 +1,105 @@
+body{
+    padding:0px;
+    margin:0px;
+    text-align:center;
+    background-color: #b98e77;
+}
+header{
+    margin: 10px auto;
+    height: 21px;
+    width: 440px;
+}
+.content{
+	width: 440px;
+	border: 0.1px;
+    margin:  1px auto  15px auto;
+    padding: 1px;
+}
+.leb-menu{
+    height: 30px;
+    text-align: left;
+}
+/*  МЕНЮ */
+#dws-menu, header label {
+    display: contents;
+}
+.menu {
+    z-index: 4;
+    position: absolute;
+    width: 150px;
+    text-align: left;
+    margin-left: -400px;
+    transition: all 0.5s;
+ }
+.menu ul {
+    flex-direction: column;
+}
+#dws-menu:checked ~ .menu {
+    margin: 0;
+}
+
+.menu li a {
+    font-size: 27px;
+}
+ul{
+	background-color:#90604C;
+ 	list-style: none;   /*убираем маркеры списка*/
+ 	margin: 0;   /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0;   /*убираем левый отступ, равный 40px*/
+	display: flex;
+	float: right;
+    width: 147px;
+}
+li{
+	height: 51px;
+}
+a{
+	text-decoration: none;   /*убираем подчеркивание текста ссылок*/	
+	padding: 2px ;
+	color: #b98e77;
+  	font-family: 'Oswald', sans-serif;
+  	font-size: 37px;
+}
+a:hover {
+	color: #dbc197;
+}
+.p66{
+    width: 5%;
+}
+h1{
+    font-family: 'Merienda', cursive;
+    font-size: 28px;
+    color: #d9af96;
+}
+.blok2{
+    text-align: center;
+    margin: auto;
+    text-align: center;
+    border-spacing: 0px;
+}
+.table1{
+    text-align: center;
+    width: 440px;
+    background-color:#90604C;
+}
+.www{
+    color: #d9af96;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin: 0px 10px;
+}
+.w{
+    padding: 10px;
+}
+.a1{
+    height: 220px;
+}
+.sa1{
+    text-decoration: none;   /*убираем подчеркивание текста ссылок*/
+    padding: 0px;
+    height: 5px;
+    color: #dbc197;
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+}
