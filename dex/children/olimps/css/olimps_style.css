@@ -70,7 +70,7 @@ table{
 .a1, .a2, .a3, .a4, .a5, .a6{
 	width: 300px;
 }
-.re2{
+a{
   text-decoration: none;   /*убираем подчеркивание текста ссылок*/  
   padding: 2px ;
   color: #d9af96;
