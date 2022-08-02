@@ -1,0 +1,94 @@
+body{
+	background-color: #b98e77;
+	
+}
+
+.content{
+	width: 1110px;
+	border: 1px;
+    margin:  1px auto;
+    padding: 1px;
+
+}
+/*  МЕНЮ */
+.menu{
+	height: 34px;
+	border: 1px;
+	margin: auto;
+}
+.leb-menu{
+	height: 0px;
+}
+#dws-menu,
+header label {
+ display: none;
+}
+ul{
+
+ 	list-style: none;   /*убираем маркеры списка*/
+ 	margin: 0;   /*убираем верхнее и нижнее поле, равное 1em*/
+  	padding-left: 0;   /*убираем левый отступ, равный 40px*/
+}
+ul{
+	display: flex;
+	float: right;
+
+}
+a{
+	text-decoration: none;   /*убираем подчеркивание текста ссылок*/
+	padding: 1em;	
+	height: 5px;
+	color: #90604C;
+  	font-family: 'Oswald', sans-serif;
+  	font-size: 21px;
+}
+a:hover {
+	color: #dbc197;
+}
+.blok2{
+	padding: 0px;
+	font-family: 'IBM Plex Sans', sans-serif;
+  	color: #d9af96;
+  	height: 610px;
+  	text-align: center;
+  	margin: auto;
+}
+.p66{
+	width: 0;
+}
+
+.a1, .a2, .a3 {
+	width: 320px;
+	float: left;
+	padding: 0px;
+	background-color:#90604C;
+	display: inline-table;
+	margin-left: 14px;
+	
+}
+.a_1, .a_2, .a_3 {
+	margin: 20px 0px;
+	width: 320px;
+	height: 300px;
+}
+
+.a111, .a222, .a333 {
+	font-size: 42px;
+	width: 340px;
+	margin: 10px 0px;
+}
+.aaa1, .aaa2, .aaa3{
+	font-size: 21px;
+	margin: 0px 10px 10px 10px;
+	width: 315px;
+}
+
+.wer_1, .wer_2, .wer_3{
+	width: 33.3335%;
+	float: left;
+}
+
+
+.p1, .p2, .p3{
+	width: 300px;
+}
