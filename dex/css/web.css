@@ -1,0 +1,166 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+body{
+	background-color: #b98e77;
+}
+/*  основной блок контента */
+.content{
+	width: 1820px;
+	border: 1px;
+    margin:  1px auto;
+    padding: 1px;
+    height:auto;
+}
+/*  МЕНЮ */
+.menu{
+	height: 60px;
+	border: 1px;
+}
+#dws-menu,
+header label {
+ display: none;
+}
+ul{
+ 	list-style: none;   /*убираем маркеры списка*/
+ 	margin: 0px;   /*убираем верхнее и нижнее поле, равное 1em*/
+  	padding-left: 0px;   /*убираем левый отступ, равный 40px*/
+}
+ul{
+	display: flex;
+	float: right;
+}
+a{
+	text-decoration: none;   /*убираем подчеркивание текста ссылок*/
+	padding: 1em;
+	height: 5px;
+	color: #90604C;
+  	font-family: 'Oswald', sans-serif;
+  	font-size: 41px;
+}
+a:hover {
+	color: #dbc197;
+}
+/*  ПЕРВЫЙ блок */
+.ve{
+	height: 720px;
+	float: left;
+	border: 1px;
+	width: 1070px;
+    display:block;
+    padding:1px;
+}
+.table1{
+	height: 700px;
+	width: 720px;
+	margin: 0px;
+    float:right;
+    display:block;
+}
+.r_table1{
+	height: 700px;
+	padding: 1em;
+	margin: 0px;
+    float:right;
+    display:block;
+}
+.blok1{
+	border: 1px;
+	height: 720px;
+	background-color:#90604C;
+}
+.good{
+	font-family: 'Merienda', cursive;
+	font-size: 160px;
+	color: #dbc197;
+	height: 210px;
+	text-align: center;
+}
+.coma{
+	color: #dbc197;
+	font-family: 'Caveat', cursive;
+	font-size: 79px;
+	height: 90px;
+	text-align: center;
+}
+.rew{
+	text-align: center;
+	height: 400px;
+}
+
+/* ВТОРОЙ блок */
+.blok2{
+	margin: auto;
+    text-align: center;
+    border-spacing: 0px;
+}
+.wulf{
+	height: 600px;
+	background-color:#dbcabd;
+	color: #573f2c;
+	font-family: 'Oswald', sans-serif;
+	font-size: 35px;
+}
+.rex{
+	padding: 75px;
+	width: 900px;
+}
+.rek{
+	height: 270px;
+	background-color:#573f2c;
+	color: #dbcabd;
+	font-family: 'Caveat', cursive;
+	font-size: 76px;
+}
+.ppp{
+	display: none;
+}
+.p222{
+	width: 0px;
+}
+.wert{
+	color: #573f2c;
+	font-size: 25px;
+	text-align: left;
+	padding: 5px 0px;
+}
+.wy1{
+    display:none;
+}
+.p66{
+	width: 0px;
+}
+.p20{
+	width: 100%;
+}
+.p3{
+	width: 0px;
+}
+.p10{
+	width: 1070px;
+}
+.p1{
+	width: 0px;
+}
+.p7{
+	width: 78%;
+}
+.p2{
+	width: 80%;
+}
+
+
