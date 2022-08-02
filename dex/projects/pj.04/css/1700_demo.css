@@ -1,0 +1,89 @@
+body{
+	padding:0px;
+	margin:0px;
+	text-align:center;
+	background-color: #b98e77;
+}
+header{
+     margin: 0px auto;
+     height: 35px;
+     width: 1110px;
+}
+.content{
+	width: 1110px;
+	border: 1px;
+    margin:  1px auto 20px auto;
+    padding: 1px;
+    background-color:#90604C;
+}
+/*  МЕНЮ */
+.menu{
+	border: 1px;
+	margin: auto;
+}
+.leb-menu{
+	height: 0px;
+}
+#dws-menu, header label {
+    display: none;
+}
+ul{
+ 	list-style: none;   /*убираем маркеры списка*/
+ 	margin: 0;   /*убираем верхнее и нижнее поле, равное 1em*/
+  	padding-left: 0;   /*убираем левый отступ, равный 40px*/
+}
+ul{
+	display: flex;
+	float: right;
+}
+a{
+	text-decoration: none;   /*убираем подчеркивание текста ссылок*/
+	padding: 10px 20px;
+	height: 5px;
+	color: #90604C;
+  	font-family: 'Oswald', sans-serif;
+  	font-size: 21px;
+}
+a:hover {
+	color: #dbc197;
+}
+h1{
+	font-family: 'Merienda', cursive;
+	font-size: 45px;
+	color: #d9af96;
+}
+.blok2{
+	text-align: center;
+	margin: auto;
+    text-align: center;
+    border-spacing: 0px;
+}
+.table1{
+	text-align: center;
+	width: 1110px;
+	background-color:#90604C;
+}
+
+.p66{
+	width: 0;
+}
+.www{
+	color: #d9af96;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	text-align: left;
+}
+.w{
+	padding: 40px;
+}
+.a1{
+	height: 500px; 
+}
+.sa1{
+	text-decoration: none;   /*убираем подчеркивание текста ссылок*/
+	padding: 0px;	
+	height: 5px;
+	color: #dbc197;
+  	font-family: 'Oswald', sans-serif;
+  	font-size: 28px;
+}
