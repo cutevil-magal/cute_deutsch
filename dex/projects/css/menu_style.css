@@ -1,0 +1,90 @@
+body{
+	background-color: #b98e77;
+	
+}
+
+.content{
+	width: 1820px;
+	border: 1px;
+    margin:  1px auto;
+    padding: 1px;
+
+}
+/*  МЕНЮ */
+.menu{
+	height: 60px;
+	border: 1px;
+	margin: auto;
+}
+.leb-menu{
+	height: 0px;
+}
+#dws-menu,
+header label {
+ display: none;
+}
+ul{
+
+ 	list-style: none;   /*убираем маркеры списка*/
+ 	margin: 0;   /*убираем верхнее и нижнее поле, равное 1em*/
+  	padding-left: 0;   /*убираем левый отступ, равный 40px*/
+}
+ul{
+	display: flex;
+	float: right;
+
+}
+a{
+	text-decoration: none;   /*убираем подчеркивание текста ссылок*/
+	padding: 1em;	
+	height: 5px;
+	color: #90604C;
+  	font-family: 'Oswald', sans-serif;
+  	font-size: 41px;
+}
+a:hover {
+	color: #dbc197;
+}
+.p66{
+	width: 0;
+}
+.blok2{
+	padding: 20px;
+	font-family: 'Oswald', sans-serif;
+  	font-size: 35px;
+  	color: #d9af96;
+  	width: 1820px;
+  	margin: 1px auto 20px auto;
+}
+
+.a1, .a2, .a3, .a4, .a5, .a6, .a7, .a8 {
+	width: 580px;
+	float: left;
+	padding: 0px;
+	background-color:#90604C;
+	display: inline-table;
+	margin-left: 5px;
+}
+.a111, .a222, .a333, .a444, .a555, .a666, .a777, .a888{
+	margin: 35px 1px 5px 1px;
+}
+.aaa1, .aaa2, .aaa3, .aaa4, .aaa5, .aaa6, .aaa7, .aaa8 {
+	font-size: 45px;
+	margin: 0px 10px 30px 30px;
+	width: 510px;
+}
+.wer_1, .wer_2, .wer_3, .wer_4, .wer_5, .wer_6, .wer_7, .wer_8{
+	width: 33.3%;
+	float: left;
+	display: flex;
+	margin: 0px 0px 20px 0px;
+	justify-content: space-around;
+}
+.p1{
+	width: 500px;
+	height: 370px;
+}
+figcaption{
+	text-align: center;
+	width: 570px;
+}
